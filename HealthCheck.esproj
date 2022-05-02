@@ -2,7 +2,7 @@
   <PropertyGroup Label="Globals">
     <ProjectGuid>98880bcb-881e-4578-abb4-9e13bc12a7e2</ProjectGuid>
   </PropertyGroup>
-  <PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <StartupCommand>npm start</StartupCommand>
     <JavaScriptTestFramework>Jasmine</JavaScriptTestFramework>
   </PropertyGroup>
